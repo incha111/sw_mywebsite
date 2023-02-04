@@ -15,10 +15,22 @@ h2,h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+  border: dotted #777271 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
 img {
   padding: 15px 0 15px;
 }
 
 .top-container {
   background-color: #EAFDFC;
+}
+
+.bottom-container {
+  background-color: #EAFDFC;
+  padding: 2% 0;
 }
