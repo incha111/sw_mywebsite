@@ -11,8 +11,14 @@ h1 {
   font-size: 5.625em;
 }
 
-h2,h3 {
+h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 hr {
@@ -26,8 +32,86 @@ img {
   padding: 15px 0 15px;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right:10px;
+
+}
+
+li {
+  display: inline;
+  padding: 0 10px;
+
+
+}
+
 .top-container {
   background-color: #EAFDFC;
+  position: relative;
+}
+
+.menu {
+  font-size: 20px;
+  color: #66BFBF;
+  text-decoration: none;
+}
+
+.menu:hover {
+  color: #287D7D;
+}
+
+.midden-container {
+  margin: 100px auto 0;
+
+}
+
+.me {
+  text-align: left;
+padding-bottom: 50px;
+}
+
+.img_me {
+  width: 10%;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.me_row {
+  width: 50%;
+  margin: 100px auto;
+
+}
+
+.hr_row {
+  clear: both;
+}
+
+.img_job {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.img_hobbies {
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.img_house {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.p_row {
+  line-height: 2;
 }
 
 .bottom-container {
